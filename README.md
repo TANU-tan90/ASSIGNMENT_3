@@ -49,25 +49,25 @@ In addition to simplicity, this version includes beautiful color output, making 
 
 * Horizontal Lines
 
-1–2–3
+      1–2–3
 
-4–5–6
+      4–5–6
 
-7–8–9
+      7–8–9
 
 * Vertical Lines
 
-1–4–7
+      1–4–7
 
-2–5–8
+      2–5–8
 
-3–6–9
+      3–6–9
 
 * Diagonals
 
-1–5–9
+      1–5–9
 
-3–5–7
+      3–5–7
 
 The program checks all these using simple if-else statements.
 
@@ -101,4 +101,4 @@ Yellow    -->  \x1b[33m	   -->   Player O
 Black     -->  \x1b[30m	   -->   Empty board numbers
 Reset     -->  \x1b[0m	   -->   Return to normal color
 
-So,this is all I wanted to add. Give it a try you will definitely enjoy!!!
+So, this is all I wanted to add. Give it a try you will definitely enjoy...!!!
