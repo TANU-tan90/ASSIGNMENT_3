@@ -1,17 +1,19 @@
+# Introduction :-
+
 This game demonstrates how a complete terminal-based game can be built using only basic C programming concepts, making it perfect for beginners.
 Each board position is stored as a separate variable (char a, b, c ...) instead of arrays, and all logic is handled with if-else conditions and loops.
 
 In addition to simplicity, this version includes beautiful color output, making the game more engaging and fun to play directly in the terminal.
 
-* How the Game Works :-
+# How the Game Works :-
 
-# The game uses 9 character variables, each representing a cell on the 3×3 Tic-Tac-Toe board.
+-> The game uses 9 character variables, each representing a cell on the 3×3 Tic-Tac-Toe board.
 
-# At the start, each cell contains its position number (1–9).
+-> At the start, each cell contains its position number (1–9).
 
-# Player X always makes the first move, followed by Player O.
+-> Player X do not always makes the first move, it asks for user choice.
 
-# After each move:
+* After each move:
 
 1) The board is updated.
 
@@ -21,7 +23,7 @@ In addition to simplicity, this version includes beautiful color output, making 
 
 4) The game continues until someone wins or the board is full.
 
-# Color codes are used to print:
+* Color codes are used to print:
 
 1) X in Red
 
@@ -29,23 +31,23 @@ In addition to simplicity, this version includes beautiful color output, making 
 
 3) Numbers in Black
 
-* Game Rules :-
+# Game Rules :-
   
 1. Turns
 
-# Player X goes first.
+* User chosen player goes first.
 
-# Players alternate turns.
+* Players alternate turns.
 
 2. Valid Moves
 
-# The chosen number is between 1 and 9
+* The chosen number is between 1 and 9
 
-# The corresponding cell is not already taken
+* The corresponding cell is not already taken
 
 3. Win Conditions  (A player wins if they place 3 marks in any of these:)
 
-# Horizontal Lines
+* Horizontal Lines
 
 1–2–3
 
@@ -53,7 +55,7 @@ In addition to simplicity, this version includes beautiful color output, making 
 
 7–8–9
 
-# Vertical Lines
+* Vertical Lines
 
 1–4–7
 
@@ -61,7 +63,7 @@ In addition to simplicity, this version includes beautiful color output, making 
 
 3–6–9
 
-# Diagonals
+* Diagonals
 
 1–5–9
 
@@ -71,13 +73,13 @@ The program checks all these using simple if-else statements.
 
 4. Draw Condition
 
-# If all 9 cells are filled and no player has won, the game ends in a Tie.
+* If all 9 cells are filled and no player has won, the game ends in a Tie.
 
 5. No Undo
 
-# Once a move is accepted, it cannot be undone.
+* Once a move is accepted, it cannot be undone.
 
-* Features :-
+# Features :-
   
 1. Colorful Output - This makes the board easy to read and visually attractive.
 
@@ -89,7 +91,7 @@ The program checks all these using simple if-else statements.
 
 5. Works Everywhere - Windows Terminal, Linux terminal, macOS Terminal, VS Code integrated terminal.
 
-* Color System :-
+# Color System :-
 
 This game uses ANSI escape codes to add color to the terminal output:
 
